@@ -151,7 +151,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BadTrapezium.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="RegisterCalc.cpp" />
+    <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="Trapezium.cpp" />
+    <ClCompile Include="TrapeziumAxes.cpp" />
+    <ClCompile Include="TrapeziumBase.cpp" />
     <ClCompile Include="Yankin_Exam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Axis.h" />
+    <ClInclude Include="BadTrapezium.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="RegisterCalc.h" />
+    <ClInclude Include="Segment.h" />
+    <ClInclude Include="Trapezium.h" />
+    <ClInclude Include="TrapeziumAxes.h" />
+    <ClInclude Include="TrapeziumBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
